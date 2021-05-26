@@ -20,6 +20,7 @@ function App(): JSX.Element {
         e.preventDefault()
         addTask(newTask)
         setNewTask('')
+        //For each update, the focus will be on the input
         taskInput.current?.focus()
     }
 
